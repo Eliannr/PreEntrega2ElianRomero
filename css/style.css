@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
  body{
-    background-color: #FFFFF8DC;
+    background-color: black;
  }
 
 /* navbar */
@@ -48,12 +48,26 @@
 
 /* footer */
 
-footer {
+footer div p {
     text-align: center;
     color: #c1066f;
     
 }
 
+/* Texto */
+
+.introduccion {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size:17px;
+}
+
+/* imagenes */
+
+.espacio {
+    padding: 3rem;
+}
 /* tablet */
 
 @media screen and (min-width: 600px) {
@@ -76,20 +90,3 @@ footer {
         margin: 0 0.5rem; 
     }
 }
-
-/* Introduccion */
-
-.introduccion {
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size:17px;
-}
-
-
-/*desktop */
-
-@media screen and (min-width: 1024px) {
-
-}
-
